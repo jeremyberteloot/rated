@@ -5,11 +5,5 @@ export default defineNuxtConfig({
   tailwindcss: {
     exposeConfig: true,
     viewer: true,
-    // and more...
-  },
-  runtimeConfig: {
-    public: {
-      tmdbKey: process.env.TMDB_API_KEY,
-    },
   },
 });
